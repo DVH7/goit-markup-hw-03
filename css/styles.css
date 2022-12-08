@@ -82,6 +82,7 @@ p {
   padding-bottom: 24px;
 
   color: var(--title-text-color);
+  font-family: inherit;
   font-weight: 500;
   text-decoration: none;
 }
@@ -224,6 +225,7 @@ border-radius: 0px 0px 4px 4px
 
 .employ p {
   color: var(--primary-text-color);
+  margin-bottom: 32px;
 }
 /*portfolio*/
 
@@ -245,7 +247,9 @@ border-radius: 0px 0px 4px 4px
   color: var(--primary-bcg-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+
 }
 
 .section-cards{
@@ -282,17 +286,18 @@ border-radius: 4px;
   padding-top: 32px;
 }
 .shadow{
-  background: #FFFFFF;
+background: #FFFFFF;
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 padding-left: 16px;
+border-top: none;
 }
 
-.shadow:hover,
-.shadow:focus{
-  background: #FFFFFF;
-  border: 0.5px solid #F4F4FD;
+.cards .item:hover,
+.cards .item:focus{
+  
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ 
 }
 
 .cards a {
